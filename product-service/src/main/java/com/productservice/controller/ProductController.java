@@ -11,7 +11,7 @@ import reactor.core.publisher.Mono;
 @RequestMapping("/products")
 public class ProductController {
 
-    /*@Autowired
+    @Autowired
     ProductRepository productRepository;
 
     @PostMapping
@@ -26,5 +26,5 @@ public class ProductController {
     @GetMapping
     public Flux<Product> getAllProducts(@RequestParam Long userId) {
         return productRepository.findAllByUserId(userId);
-    }*/
+    }
 }
