@@ -1,13 +1,13 @@
-package com.testreactive;
+package com.userservice;
 
 import org.springframework.boot.SpringApplication;
 import org.springframework.boot.autoconfigure.SpringBootApplication;
 
 @SpringBootApplication
-public class TestReactiveApplication {
+public class UserServiceApplication {
 
     public static void main(String[] args) {
-        SpringApplication.run(TestReactiveApplication.class, args);
+        SpringApplication.run(UserServiceApplication.class, args);
     }
 
 }
